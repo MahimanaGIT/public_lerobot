@@ -13,6 +13,7 @@
 # limitations under the License.
 
 from .act.configuration_act import ACTConfig as ACTConfig
+from .act_mem.configuration_act_mem import ACTMemConfig as ACTMemConfig
 from .act_multiframe.configuration_act_multiframe import ACTMultiFrameConfig as ACTMultiFrameConfig
 from .diffusion.configuration_diffusion import DiffusionConfig as DiffusionConfig
 from .groot.configuration_groot import GrootConfig as GrootConfig
@@ -25,6 +26,7 @@ from .vqbet.configuration_vqbet import VQBeTConfig as VQBeTConfig
 
 __all__ = [
     "ACTConfig",
+    "ACTMemConfig",
     "ACTMultiFrameConfig",
     "DiffusionConfig",
     "PI0Config",
